@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('list_files') {
+      steps {
+        sh 'ls -al'
+      }
+    }
+
   }
 }
